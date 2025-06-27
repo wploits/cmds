@@ -1,11 +1,28 @@
+-- PERMISSIONS --
+1 - Mod
+特徴: BAN/KICKなどができません。
+2 - Owner/Admin
+特徴: BAN/KICKなどの管理コマンドが使えます
+-- END --
+
+-- COMMANDS --
+help
+- これ
+
 walkspeed/ws [number]
--walkspeed変更
+- walkspeedを変えれる
 
 jumppower/jp [number]
--jumppower変更
+- jumppowerを変えれる
 
-kick [playerName] [Reason]
--キック
+kick [username]
+- PERMISSION 2 NEEDED
+- プレイヤーをkickできます1
 
-help
--これ
+ban [mode] [username/userid] [reason] [number] [s/m/h/d/w/mo/y]
+- PERMISSION 2 NEEDED
+- mode = username / userid どちらか選べます。オフライン/違うサーバーのユーザーにはuseridを、同じサーバーの人にはusernameがおすすめ
+- [username/userid] にはmodeで選んだ方を打ってください。
+- [number] [s/m/h/d/w/mo/y] は、BANの長さです。
+- [s/m/h/d/w/mo/y] は、 [秒/分/時間/日/週/月/年] という意味です。
+- 3 m と打ったら、3分のBANになります。
