@@ -1,0 +1,11 @@
+walkspeed/ws [number]
+-walkspeed変更
+
+jumppower/jp [number]
+-jumppower変更
+
+kick [playerName] [Reason]
+-キック
+
+help
+-これ
