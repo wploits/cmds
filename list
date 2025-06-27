@@ -19,7 +19,7 @@ kick [username]
 - PERMISSION 2 NEEDED
 - プレイヤーをkickできます1
 
-ban [mode] [username/userid] [reason] [number] [s/m/h/d/w/mo/y]
+ban [mode] [username/userid] [number] [s/m/h/d/w/mo/y] [reason]
 - PERMISSION 2 NEEDED
 - mode = username / userid どちらか選べます。オフライン/違うサーバーのユーザーにはuseridを、同じサーバーの人にはusernameがおすすめ
 - [username/userid] にはmodeで選んだ方を打ってください。
